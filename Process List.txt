@@ -1,0 +1,91 @@
+Process List
+============
+
+ PID   PPID  Name            	Arch  Session  User                      	Path
+ ---   ----  ----            	----  -------  ----                      	----
+ 0 	0 	[System Process]
+ 4 	0 	System          	x64   0
+ 284   4 	smss.exe        	x64   0    	NT AUTHORITY\SYSTEM       	\SystemRoot\System32\smss.exe
+ 368   352   csrss.exe       	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\csrss.exe
+ 384   520   svchost.exe     	x64   0    	NT AUTHORITY\NETWORK SERVICE
+ 420   352   wininit.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\wininit.exe
+ 428   412   csrss.exe       	x64   1    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\csrss.exe
+ 468   412   winlogon.exe    	x64   1    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\winlogon.exe
+ 520   420   services.exe    	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\services.exe
+ 536   420   lsass.exe       	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\lsass.exe
+ 544   420   lsm.exe         	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\lsm.exe
+ 644   520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM
+ 708   520   VBoxService.exe 	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\System32\VBoxService.exe
+ 776   520   svchost.exe     	x64   0    	NT AUTHORITY\NETWORK SERVICE
+ 868   520   svchost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 916   520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM
+ 968   520   svchost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 1012  520   svchost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 1016  520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM
+ 1224  520   spoolsv.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\System32\spoolsv.exe
+ 1260  520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM
+ 1288  520   wrapper.exe     	x86   0    	NT AUTHORITY\LOCAL SERVICE
+ 1376  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 1380  520   dcserverhttpd.exe   x86   0    	NT AUTHORITY\LOCAL SERVICE
+ 1392  520   domain1Service.exe  x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 1456  520   elasticsearch-serv  x64   0    	NT AUTHORITY\SYSTEM       	C:\Program Files\elasticsearch-1.1.1
+         	ice-x64.exe                                                  	\bin\elasticsearch-service-x64.exe
+ 1464  1288  java.exe        	x86   0    	NT AUTHORITY\LOCAL SERVICE	C:\ManageEngine\DesktopCentral_Serve
+                                                                          	r\jre\bin\java.exe
+ 1472  368   conhost.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\conhost.exe
+ 1504  520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM
+ 1528  520   jenkins.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 1604  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 1676  1596  java.exe        	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Program Files (x86)\Common Files\
+                                                                          	Oracle\Java\javapath\java.exe
+ 1744  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 1956  520   jmx.exe         	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 1972  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 2044  520   dcnotificationserv  x86   0    	NT AUTHORITY\LOCAL SERVICE
+         	er.exe
+ 2128  520   cygrunsrv.exe   	x64   0    	VAGRANT-2008R2\sshd_server	C:\Program Files\OpenSSH\bin\cygruns
+                                                                          	rv.exe
+ 2144  520   msdtc.exe       	x64   0    	NT AUTHORITY\NETWORK SERVICE
+ 2192  368   conhost.exe     	x64   0    	VAGRANT-2008R2\sshd_server	C:\Windows\system32\conhost.exe
+ 2208  2164  sshd.exe        	x64   0    	VAGRANT-2008R2\sshd_server	C:\Program Files\OpenSSH\usr\sbin\ss
+                                                                          	hd.exe
+ 2248  520   svchost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 2272  520   snmp.exe        	x64   0    	NT AUTHORITY\SYSTEM
+ 2316  520   tomcat8.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Program Files\Apache Software Fou
+                                                                          	ndation\tomcat\apache-tomcat-8.0.33\
+                                                                          	bin\tomcat8.exe
+ 2324  1380  dcrotatelogs.exe	x86   0    	NT AUTHORITY\LOCAL SERVICE	C:\ManageEngine\DesktopCentral_Serve
+                                                                          	r\apache\bin\dcrotatelogs.exe
+ 2332  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 2384  368   conhost.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\conhost.exe
+ 2420  1380  dcserverhttpd.exe   x86   0    	NT AUTHORITY\LOCAL SERVICE	C:\ManageEngine\DesktopCentral_Serve
+                                                                          	r\apache\bin\dcserverhttpd.exe
+ 2444  520   httpd.exe       	x64   0    	NT AUTHORITY\LOCAL SERVICE
+                                                                          	
+ 2576  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 2616  1676  java.exe        	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Program Files\Java\jdk1.8.0_211\b
+                                                                          	in\java.exe
+ 2624  368   conhost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\conhost.exe
+ 2636  520   mysqld.exe      	x64   0    	NT AUTHORITY\SYSTEM       	c:\wamp\bin\mysql\mysql5.5.20\bin\my
+                                                                          	sqld.exe
+ 3392  520   svchost.exe     	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\svchost.exe
+ 3432  520   wlms.exe        	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\wlms\wlms.exe
+ 3816  1956  cmd.exe         	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Windows\system32\cmd.exe
+ 3824  3816  java.exe        	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\openjdk6\openjdk-1.6.0-unofficial
+                                                                          	-b28-windows-amd64-installer\jre\bin
+                                                                          	\java.exe
+ 3840  1528  java.exe        	x64   0    	NT AUTHORITY\LOCAL SERVICE	C:\Program Files (x86)\Common Files\
+                                                                          	Oracle\Java\javapath\java.exe
+ 4296  520   sppsvc.exe      	x64   0    	NT AUTHORITY\NETWORK SERVICE
+ 4328  520   svchost.exe     	x64   0    	NT AUTHORITY\NETWORK SERVICE
+ 4736  6112  VBoxTray.exe    	x64   1    	VAGRANT-2008R2\vagrant    	C:\Windows\System32\VBoxTray.exe
+ 5216  6112  DesktopCentral.exe  x86   1    	VAGRANT-2008R2\vagrant    	C:\ManageEngine\DesktopCentral_Serve
+                                                                          	r\bin\DesktopCentral.exe
+ 5468  644   WmiPrvSE.exe    	x64   0    	NT AUTHORITY\SYSTEM       	C:\Windows\system32\wbem\wmiprvse.ex
+                                                                          	
+ 5552  6112  shutdown.exe    	x64   1    	VAGRANT-2008R2\vagrant    	C:\Windows\system32\shutdown.exe
+ 5764  520   taskhost.exe    	x64   1    	VAGRANT-2008R2\vagrant    	C:\Windows\system32\taskhost.exe
+ 5824  520   svchost.exe     	x64   0    	NT AUTHORITY\LOCAL SERVICE
+ 6088  1016  dwm.exe         	x64   1    	VAGRANT-2008R2\vagrant    	C:\Windows\system32\Dwm.exe
+ 6112  6080  explorer.exe    	x64   1    	VAGRANT-2008R2\vagrant    	C:\Windows\Explorer.EXE
+
